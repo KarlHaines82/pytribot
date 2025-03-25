@@ -1,0 +1,22 @@
+[project]
+name = "pytribot"
+version = "0.1.0"
+description = "private"
+authors = [
+    {name = "Karl Haines",email = "kmhnashville@gmail.com"}
+]
+license = {text = "M.I.T."}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+  "ccxt",
+  "pandas",
+  "matplotlib",
+  "reqeusts",
+  "psycopg2"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
